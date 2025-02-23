@@ -395,5 +395,24 @@ body {
         margin: 0;
     }
 
+    #details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    display: grid;
+    gap: 10px;
+    user-select: none;
+    opacity: 0;
+    z-index: 9999;
+
+}
+
 
 }
