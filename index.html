@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daylio Visualiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="details">
+        <h2 id="time"></h2>
+        <p id="emoji"><img src="amazing.png" alt=""></p>
+        <p id="activities"></p>
+        <p id="note"></p>
+    </div>
+
+    <div id="buttons">
+        <input id="realFileUpload" type="file" accept=".csv">
+        <div id="visibleFileUpload">
+            <img draggable="false" src="upload.png" alt="">
+        </div>
+
+        <div id="monthSelect">
+            <p id="month">ERR,</p>
+            <p id="year">ERR</p>
+        </div>
+        <div id="monthDropdown"></div>
+
+        <input type="text" id="search" autocomplete="off" placeholder="Search...">
+    </div>
+
+    <div id="page">
+        <div id="visualiser">
+            <div id="grid">
+                <!-- Grid cells will be dynamically generated here -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
