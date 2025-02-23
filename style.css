@@ -420,3 +420,11 @@ body {
 
 
 }
+
+
+div#visualiser::-webkit-scrollbar {
+    display: none;
+}
+div#visualiser::-webkit-scrollbar {
+    display: none;
+}
